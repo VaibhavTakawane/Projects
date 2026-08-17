@@ -1,0 +1,31 @@
+# ---------- Python / Django (backend) ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.sqlite3
+db.sqlite3
+db.sqlite3-journal
+staticfiles/
+media/
+*.log
+.env
+venv/
+env/
+.venv/
+*.egg-info/
+
+# ---------- Node / React (frontend) ----------
+node_modules/
+/frontend/build
+/frontend/.pnp
+.pnp.js
+/frontend/coverage
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ---------- Editors / OS ----------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
